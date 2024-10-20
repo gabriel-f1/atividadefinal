@@ -3,11 +3,11 @@ ATIVIDADE - PROGRAMAÇÃO FRONT-END
 
 -> Neste arquivo, será explicado o que acontece em cada linha de código do arquivo JavaScript. Cada número representa a sua linha respectiva.
 
-1. O JavaScript procura no documento HTML um elemento que tenha o ID "cadastroForm" e então adiciona um evento "ouvinte" que executa uma ação quando o formulário for enviado. (a função será explicada nas próximas linhas)
+1. O JavaScript procura no documento HTML um elemento que tenha o ID "formularioemails" e então adiciona um evento "ouvinte" que executa uma ação quando o formulário for enviado. (a função será explicada nas próximas linhas)
 2. Técnica utilizada para prevenir o comportamento padrão do formulário (impede a página de recarregar quando enviar o formulário).
 3. Pega o valor inserido no campo de texto com o ID "nome" e o armazena na variável "nome".
 4. Pega o valor inserido no campo de texto com o ID "email" e o armazena na variável email.
-5. Acessa o primeiro elemento <tbody> da tabela com o ID "tabelaUsuarios", utilizando a mesma lógica da linha 1. (getElementbyID)
+5. Acessa o primeiro elemento <tbody> da tabela com o ID "cadastrados", utilizando a mesma lógica da linha 1. (getElementbyID)
 6. Insere uma nova linha na tabela. (auto explicativo)
 7. Cria uma nova célula na primeira coluna da nova linha. (Armazena o nome do usuário)
 8. Cria uma nova célula na segunda coluna da nova linha. (Armazena o e-mail do usuário) (As novas células são criadas nas colunas nas linhas 7 e 8 para armazenar os dados do nome e do e-mail que o usuário inseriu no formulário. Cada linha da tabela precisa de células (colunas) para exibir essas informações.)
