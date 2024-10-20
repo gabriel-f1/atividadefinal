@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Usuários</h1>
+    </header>
+
+    <div class="container">
+        <h2>Coleta de Dados</h2>
+        <form id="cadastroForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <h3>Usuários Cadastrados</h3>
+        <div class="tabela-box">
+            <table id="tabelaUsuarios">
+                <thead>
+                    <tr>
+                        <th style="text-align: center;">Nome</th>
+                        <th style="text-align: center;">Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
