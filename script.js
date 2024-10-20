@@ -1,8 +1,8 @@
-document.getElementById("cadastroForm").addEventListener("submit", function(event) {
+document.getElementById("formularioemails").addEventListener("submit", function(event) {
     event.preventDefault();
     let nome = document.getElementById("nome").value;
     let email = document.getElementById("email").value;
-    let tabela = document.getElementById("tabelaUsuarios").getElementsByTagName('tbody')[0];
+    let tabela = document.getElementById("cadastrados").getElementsByTagName('tbody')[0];
     let novaLinha = tabela.insertRow();
     let celulaNome = novaLinha.insertCell(0);
     let celulaEmail = novaLinha.insertCell(1);
